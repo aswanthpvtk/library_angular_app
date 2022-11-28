@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./book-entry.component.css']
 })
 export class BookEntryComponent {
+  image=""
+  title=""
+  auther=""
+  dis=""
 
 }
