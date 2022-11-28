@@ -4,130 +4,19 @@
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
             <div class="row g-3 mt-4">
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3" *ngFor="let i of books">
 
                     <div class="card">
-                        <img  height="200px"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588286863l/634583._SY475_.jpg" class="card-img-top" alt="...">
+                        <img  height="200px"  src="{{i.image}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Wings of fire</h5>
-                          <p class="card-text">Apj abdul kalaam</p>
-                          <p class="card-text">Autobiography of kalaam</p>
+                          <h5 class="card-title">{{i.title}}</h5>
+                          <p class="card-text">{{i.auther}}</p>
+                          <p class="card-text">{{i.dis}}</p>
                         </div>
                       </div>
 
                 </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card">
-                        <img  height="200px"  src="https://m.media-amazon.com/images/I/51V0LIgapNL.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Playing It My Way</h5>
-                          <p class="card-text">Schin tendulker</p>
-                          <p class="card-text">Autobiography of Sachin</p>
-                        </div>
-                      </div>
-
-                   
-
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card">
-                        <img  height="200px"  src="https://m.media-amazon.com/images/I/5189TuB41eL.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Sunny days</h5>
-                          <p class="card-text">Sunil gavasker</p>
-                          <p class="card-text">Autobiography of Sunil gavasker</p>
-                        </div>
-                      </div>
-
-                </div>
-                <div  class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card">
-                        <img  height="200px"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356763056l/1738852.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Ente kadha</h5>
-                          <p class="card-text">Kamala suraya</p>
-                          <p class="card-text">First published January 1, 1973</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card">
-                        <img  height="200px"  src="https://rukminim1.flixcart.com/image/416/416/regionalbooks/m/d/x/mein-kampf-original-imaes6wfa9ggpy8e.jpeg?q=70" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Main Campf</h5>
-                          <p class="card-text">Adolf hitler</p>
-                          <p class="card-text"> published in 1925</p>
-                        </div>
-                      </div>
-                    
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card">
-                        <img  height="200px"  src="https://dcbookstore.com/uploads/product/images/bk_9764.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Oolavum theeravum</h5>
-                          <p class="card-text">M T vasudevan nair</p>
-                          <p class="card-text">Anthology of short stories in 1957</p>
-                        </div>
-                      </div>
-                    
-
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card">
-                        <img  height="200px"  src="https://rukminim1.flixcart.com/image/612/612/km3s1ow0/book/c/t/i/naalukettu-original-imagf3fgfztebnqx.jpeg?q=70" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Naalu kettu</h5>
-                          <p class="card-text">M T vasudevan nair</p>
-                          <p class="card-text">published in 1958</p>
-                        </div>
-                      </div>
-
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card">
-                        <img  height="200px"  src="https://m.media-amazon.com/images/I/71xcjMZXAuL.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Vaaranasi</h5>
-                          <p class="card-text">M T vasudevan nair</p>
-                          <p class="card-text">published in 2002</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card">
-                        <img  height="200px"  src="https://img-mm.manoramaonline.com/content/dam/mm/mo/literature/bookreview/images/2020/1/27/kaalam-potrait.gif" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Kaalam</h5>
-                          <p class="card-text">M T vasudevan nair</p>
-                          <p class="card-text">published in 1969</p>
-                        </div>
-                      </div>
-
-                    
-
-                   
-
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    
-                    <div class="card">
-                        <img  height="200px"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365719520l/17792370.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Randamoozham</h5>
-                          <p class="card-text">M T vasudevan nair</p>
-                          <p class="card-text">published in 1984</p>
-                        </div>
-                      </div>
-
-                </div>
-              
+                
                 </div>
             </div>
         </div>
