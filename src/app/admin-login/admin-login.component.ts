@@ -15,6 +15,16 @@ export class AdminLoginComponent {
   {
     let data:any={"aname":this.aname,"psw":this.psw}
     console.log(data)
+   
+    if ( this.aname=="admin" && this.psw=="12345")
+   {
+    alert("Valid login")
+  } 
+  else {
+    alert("invalid creditioanals")
   }
+  }
+
+  
 
 }
